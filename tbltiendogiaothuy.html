@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        </style>
+        <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <table id="table1">
+        <thead>
+            <tr>
+                <th colspan="7" class="u-bg3">LOGO</th>
+                <th colspan="20">TIẾN ĐỘ SẢN XUẤT</th>
+                <th colspan="7" class="u-bg3">9/9/2022</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Chuyền</th>
+                <th rowspan="2">Khách hàng</th>
+                <th rowspan="2">Mã hàng</th>
+                <th rowspan="2">CM</th>
+                <th rowspan="2">DG</th>
+                <th rowspan="2">ĐM ngày</th>
+                <th rowspan="2">Số CN  tru CB</th>
+                <th colspan="5" class="u-bg1">->9h15</th>
+                <th colspan="5" class="u-bg1">->11h00</th>
+                <th colspan="5" class="u-bg1">->13h50</th>
+                <th colspan="5" class="u-bg1">->15h40</th>
+                <th colspan="5" class="u-bg1">->17h30</th>
+              </tr>
+              <tr class="row-timeline">
+                <th>BTP</th>
+                <th>RC</th>
+                <th>NK</th>
+                <th>Tỉ lệ lỗi</th>
+                <th>Doanh <br> thu (CM)</th>
+               
+                <th>BTP</th>
+                <th>RC</th>
+                <th>NK</th>
+                <th>Tỉ lệ lỗi</th>
+                <th>Doanh <br> thu (CM)</th>
+
+                <th>BTP</th>
+                <th>RC</th>
+                <th>NK</th>
+                <th>Tỉ lệ lỗi</th>
+                <th>Doanh <br> thu (CM)</th>
+
+                <th>BTP</th>
+                <th>RC</th>
+                <th>NK</th>
+                <th>Tỉ lệ lỗi</th>
+                <th>Doanh <br> thu (CM)</th>
+
+                <th>BTP</th>
+                <th>RC</th>
+                <th>NK</th>
+                <th>Tỉ lệ lỗi</th>
+                <th>Doanh <br> thu (CM)</th>
+              </tr>
+        </thead>
+        <tbody id="myTable">
+            
+        </tbody>
+        
+      </table>
+      <div class="c-backtop">
+        <a href="#" class="c-backtop__btn">&nbsp;</a>
+      </div>
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+      <script>
+
+        $(window).scroll(function () {
+          if ($(window).scrollTop() > 0) {
+            $(".c-header__inner").addClass("active");
+            $(".c-backtop").addClass("active");
+          } else {
+            $(".c-header__inner").removeClass("active");
+            $(".c-backtop").removeClass("active");
+          }
+        });
+  
+      </script>
+<script src="./data.js"></script>
+<script src="./a.js"></script>
+     
+</body>
+</html>

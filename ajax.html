@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Load Data</button>
+    <ul class="list">
+
+    </ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    
+    <script>
+        let base_url = 'https://jsonplaceholder.typicode.com/posts'
+        let html = '';
+        var data = $.ajax({
+            type: "GET",
+            url: base_url,
+            success: function(response){
+                return response;
+            }
+        });
+
+        $('button').on("click",function(){
+            html = '';
+            var i = 8;
+            let posts = data.responseJSON.slice(0, i);
+            
+            posts.map(post => (
+                html += `
+                    <li>${post.title}</li>
+                `
+            ))
+
+            console.log(html);
+
+            $(".list").html(html)
+        })
+    </script>
+</body>
+</html>

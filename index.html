@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <table id='tblNDSX' class='table' style='background: white; height: 100vh; overflow: hidden;'>
+        <thead>
+            <tr class="top">
+                <th colspan='3' class='align-middle colInfo' style='padding:0px'><img src='Images/GiaoThuy.png'
+                        alt='Logo' style='height: 45px; width: 60px;'></th>
+                <th colspan='12' class='align-middle colTitle'>BẢNG THEO DÕI TỔNG HỢP CHUYỀN MAY</th>
+                <th colspan='2' class='align-middle colDatetime text'>31/08/2022 <br /> 14:39</th>
+            <tr class='customcolumn'>
+                <th rowspan='2' class='align-middle col-xs-2 colChuyen'>Chuyền</th>
+                <th rowspan='2' class='align-middle col-xs-2 colLenhSX'>Lệnh SX</th>
+                <th rowspan='2' class='align-middle col-xs-2 colMaHang'>Mã Hàng</th>
+                <th rowspan='2' class='align-middle col-xs-2 u-w1 colNV'>Ngày về</th>
+                <th rowspan='2' class='align-middle col-xs-2 u-w1 colCM'>CM</th>
+                <th rowspan='2' class='align-middle col-xs-2 u-w1 colLD'>Lao <br> động</th>
+                <th rowspan='2' class='align-middle col-xs-2 u-w1 colSC'>Số <br> chiếc</th>
+                <th rowspan='2' class='align-middle col-xs-2 u-w1 colBQSC'>BQ <br> Số <br> chiếc</th>
+                <th rowspan='2' class='align-middle col-xs-2 u-w1 colCMBQ'>CMBQ</th>
+                <th rowspan='2' class='align-middle col-xs-2 u-w1 colSCSX'>SCSX</th>
+                <th rowspan='2' class='align-middle col-xs-2 u-w1 colTon'>Tồn</th>
+                <th colspan='5' class='align-middle col-xs-2 colTitleSLTN'>SẢN LƯỢNG TRONG NGÀY</th>
+                <th colspan='3' class='align-middle col-xs-2 colTitleNDSX'>NHỊP ĐỘ SẢN XUẤT</th>
+                <th colspan='6' class='align-middle col-xs-2 colTitleSLT'>SẢN LƯỢNG TỔNG</th>
+            </tr>
+            <tr class='customcolumn'>
+                <th class='align-middle col-xs-2 colSLTN'>Kế <br> hoạch</th>
+                <th class='align-middle col-xs-2 colSLTN'>BTP cấp</th>
+                <th class='align-middle col-xs-2 colSLTN'>T.Hiện <br> ngày</th>
+                <th class='align-middle col-xs-2 colSLTN'>SP đạt</th>
+                <th class='align-middle col-xs-2 colSLTN'>Tỷ lệ <br> lỗi (%)</th>
+                <th class='align-middle col-xs-2 colNDSX'>Kế <br> hoạch</th>
+                <th class='align-middle col-xs-2 colNDSX'>Thực hiện (pcs)</th>
+                <th class='align-middle col-xs-2 colNDSX'>Tỷ lệ <br> (%)</th>
+                <th class='align-middle col-xs-2 colSLT'>Kế <br> hoạch</th>
+                <th class='align-middle col-xs-2 colSLT'>BTP cấp (pcs)</th>
+                <th class='align-middle col-xs-2 colSLT'>Ra <br> chuyền</th>
+                <th class='align-middle col-xs-2 colSLT'>QC output (pcs)</th>
+                <th class='align-middle col-xs-2 colSLT'>Tồn <br> BTP</th>
+                <th class='align-middle col-xs-2 colSLT'>Nhận <br>TP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class='align-middle col-xs-1 rowContend rowChuyen rowOdd'>01</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>30</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd text'>514109(601953) (GAP Hol22 GO-chase)</td>
+
+                <td class='align-middle col-xs-1 rowContend rowOdd text'>31/08/2022</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowNDSXRed'>0</td>
+
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowNDSXRed'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>2044</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>70</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+            </tr>
+            <tr>
+                <td class='align-middle col-xs-1 rowContend rowChuyen rowEven'>01</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>30</td>
+                <td class='align-middle col-xs-1 rowContend rowEven text'>514109(601953) (GAP Hol22 GO-chase)</td>
+
+                <td class='align-middle col-xs-1 rowContend rowEven text'>31/08/2022</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowNDSXRed'>0</td>
+
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowNDSXRed'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>2044</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>70</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+            </tr>
+            <tr>
+                <td class='align-middle col-xs-1 rowContend rowChuyen rowOdd'>01</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>30</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd text'>514109(601953) (GAP Hol22 GO-chase)</td>
+
+                <td class='align-middle col-xs-1 rowContend rowOdd text'>31/08/2022</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowNDSXRed'>0</td>
+
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowNDSXRed'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>2044</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>70</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+            </tr>
+            <tr>
+                <td class='align-middle col-xs-1 rowContend rowChuyen rowEven'>01</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>30</td>
+                <td class='align-middle col-xs-1 rowContend rowEven text'>514109(601953) (GAP Hol22 GO-chase)</td>
+
+                <td class='align-middle col-xs-1 rowContend rowEven text'>31/08/2022</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowNDSXRed'>0</td>
+
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowNDSXRed'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>2044</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>70</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+            </tr>
+            <tr>
+                <td class='align-middle col-xs-1 rowContend rowChuyen rowOdd'>01</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>30</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd text'>514109(601953) (GAP Hol22 GO-chase)</td>
+
+                <td class='align-middle col-xs-1 rowContend rowOdd text'>31/08/2022</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowNDSXRed'>0</td>
+
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowNDSXRed'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>2044</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>70</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+            </tr>
+            <tr>
+                <td class='align-middle col-xs-1 rowContend rowChuyen rowEven'>01</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>30</td>
+                <td class='align-middle col-xs-1 rowContend rowEven text'>514109(601953) (GAP Hol22 GO-chase)</td>
+
+                <td class='align-middle col-xs-1 rowContend rowEven text'>31/08/2022</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowNDSXRed'>0</td>
+
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowNDSXRed'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>2044</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>70</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+            </tr>
+            <tr>
+                <td class='align-middle col-xs-1 rowContend rowChuyen rowOdd'>01</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>30</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd text'>514109(601953) (GAP Hol22 GO-chase)</td>
+
+                <td class='align-middle col-xs-1 rowContend rowOdd text'>31/08/2022</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowNDSXRed'>0</td>
+
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowNDSXRed'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>2044</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>70</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+            </tr>
+            <tr>
+                <td class='align-middle col-xs-1 rowContend rowChuyen rowEven'>01</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>30</td>
+                <td class='align-middle col-xs-1 rowContend rowEven text'>514109(601953) (GAP Hol22 GO-chase)</td>
+
+                <td class='align-middle col-xs-1 rowContend rowEven text'>31/08/2022</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowNDSXRed'>0</td>
+
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowNDSXRed'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>2044</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>70</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+            </tr>
+            <tr>
+                <td class='align-middle col-xs-1 rowContend rowChuyen rowOdd'>01</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>30</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd text'>514109(601953) (GAP Hol22 GO-chase)</td>
+
+                <td class='align-middle col-xs-1 rowContend rowOdd text'>31/08/2022</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowNDSXRed'>0</td>
+
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd rowNDSXRed'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>2044</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>70</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowOdd'>0</td>
+            </tr>
+            <tr>
+                <td class='align-middle col-xs-1 rowContend rowChuyen rowEven'>01</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>30</td>
+                <td class='align-middle col-xs-1 rowContend rowEven text'>514109(601953) (GAP Hol22 GO-chase)</td>
+
+                <td class='align-middle col-xs-1 rowContend rowEven text'>31/08/2022</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowNDSXRed'>0</td>
+
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowTLGreen'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>44</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven rowNDSXRed'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>2044</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>70</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+                <td class='align-middle col-xs-1 rowContend rowEven'>0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

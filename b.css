@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "Digital font";
+    src: url("/css/QuartzRegular.ttf");
+}
+/*#region Css table Theo Doi Tong Hop*/
+.customcolumn {
+    /*background-color: #0B00CD;*/
+    color: white
+}
+
+.table td, .table th {
+    padding: 0.75rem 5px;
+}
+
+.table tbody td:not(:first-child) {
+    text-align: right;
+}
+
+.table tbody td.text {
+    text-align: left;
+}
+
+/* .table tbody td.fz1 {
+    font-size: 16px;
+} */
+
+.table thead tr th {
+    text-align: center;
+    border: 1px solid white;
+}
+
+
+.table tbody tr td {
+    border: 1px solid white;
+    text-align: center;
+}
+
+
+.table-responsive {
+    height: 100%;
+}
+
+    .table-responsive::-webkit-scrollbar {
+        display: none;
+    }
+
+
+.colTitleSLTN, .colTitleNDSX, .colTitleSLT {
+    font-size: 18px;
+}
+
+.colTitleNDSX, .colNDSX {
+    background-color: #003354;
+    color: white;
+}
+
+.colTitleSLTN, .colSLTN {
+    background-color: #003354;
+    color: white;
+}
+
+.colTitleSLT, .colSLT {
+    background-color: #003354;
+    color: white;
+}
+
+.colChuyen, .colLenhSX {
+    max-width: 70px;
+    min-width: 60px;
+    font-size: 15px;
+    /*background-color: #386261;*/
+    background-color: #003354;
+}
+
+.colMaHang, .colKhachHang {
+    min-width: 200px;
+    font-size: 15px;
+    /*background-color: #386261;*/
+    background-color: #003354;
+}
+
+.colNDSX, .colSLT, .colSLTN {
+    max-width: 65px;
+    min-width: 30px;
+    font-size: 15px;
+}
+
+.colTitle {
+    font-size: 30px;
+    font-weight: bold;
+    /*background-color: #9CC3DA;*/
+    background-color: white;
+    color: #00639C;
+    line-height: 5px;
+    padding-top: 0px;
+}
+
+.colInfo {
+    font-size: 10px;
+/*    font-weight: bold;*/
+    background-color: white;
+    color: black;
+    padding-top: 0px;
+}
+
+.colDatetime {
+    color: red;
+    background-color: #FFFF00;
+    font-size: 12px;
+}
+
+.rowContend {
+    background-color: black;
+    color: #38E818; /*#33FF00;*/
+    font-weight: bold;
+    font-size: 15px;
+    border-color: white;
+}
+
+.rowOdd {
+    color: #F1B207;
+}
+
+.rowChuyen {
+    background-color: #003354;
+    color: white;
+}
+
+.rowTLGreen, .rowNDSXGreen {
+    background-color: #136401;
+    color: white;
+}
+
+.rowTLYellow, .rowNDSXYellow {
+    background-color: #C4C70F;
+    color: black;
+}
+.rowTLRed, .rowNDSXRed {
+    background-color: #E00202;
+    color: white;
+}
+
+
+.table-hover tbody tr:hover {
+    background-color: #B8ECFA;
+}
+/*#endregion */
+
+thead tr:nth-child(1) td:nth-child(1) {
+    font-size: 2rem;
+  }
+  thead tr:nth-child(1) td:nth-child(1) span {
+    font-size: 1.4rem;
+  }
+  thead tr th {
+    font-size: 1.1rem !important;
+    padding: 0 5px !important;
+  }
+  thead tr th span {
+    font-size: 0.9rem !important;
+  }
+  thead .tbl_title2 {
+    font-size: 1.1rem !important;
+  }
+  thead .tbl_title2 span {
+    font-size: 0.9rem !important;
+  }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./b.css">
+</head>
+
+<body>
+    <div id="DivParent" style="background: rgb(132, 151, 169); padding: 0px; height: 100vh; overflow: hidden;">
+        <table id="tblNDSX" class="table" style="background: white; height: 100vh; overflow: hidden;">
+            <thead>
+                <tr class="customcolumn">
+                    <th colspan="2" class="align-middle colInfo" style="padding:0px"><img src="Images/GiaoThuy.png"
+                            alt="Logo" style="height: 45px; width: 60px;"></th>
+                    <th colspan="20" class="align-middle colTitle">BẢNG THEO DÕI TỔNG HỢP CHUYỀN MAY</th>
+                    <th colspan="3" class="align-middle colDatetime">07/09/2022 <br> 11:48</th>
+                </tr>
+                <tr class="customcolumn">
+                    <th rowspan="2" class="align-middle col-xs-2 colChuyen">Chuyền</th>
+                    <th rowspan="2" class="align-middle col-xs-2 colMaHang">Mã hàng</th>
+                    <th rowspan="2" class="align-middle col-xs-2 colSLTN">Ngày VC</th>
+                    <th rowspan="2" class="align-middle col-xs-2 colSLTN">ĐG CM</th>
+                    <th rowspan="2" class="align-middle col-xs-2 colSLTN">Lao động</th>
+                    <th rowspan="2" class="align-middle col-xs-2 colSLTN">Số chiếc</th>
+                    <th rowspan="2" class="align-middle col-xs-2 colSLTN">BQ số chiếc</th>
+                    <th rowspan="2" class="align-middle col-xs-2 colSLTN">CM BQ</th>
+                    <th rowspan="2" class="align-middle col-xs-2 colSLTN">Số ca sx</th>
+                    <th rowspan="2" class="align-middle col-xs-2 colSLTN">Vốn</th>
+                    <th colspan="5" class="align-middle col-xs-2 colTitleSLTN">SẢN LƯỢNG TRONG NGÀY</th>
+                    <th colspan="3" class="align-middle col-xs-2 colTitleNDSX">NHỊP CHUYỀN</th>
+                    <th colspan="7" class="align-middle col-xs-2 colTitleSLT">SẢN LƯỢNG TỔNG</th>
+                </tr>
+                <tr class="customcolumn">
+                    <th class="align-middle col-xs-2 colSLTN number">Kế hoạch</th>
+                    <th class="align-middle col-xs-2 colSLTN">BTP cấp</th>
+                    <th class="align-middle col-xs-2 colSLTN">T.Hiện ngày</th>
+                    <th class="align-middle col-xs-2 colSLTN">SP đạt</th>
+                    <th class="align-middle col-xs-2 colSLTN">Tỷ lệ lỗi (%)</th>
+                    <th class="align-middle col-xs-2 colNDSX">Kế hoạch</th>
+                    <th class="align-middle col-xs-2 colNDSX">Thực hiện (pcs)</th>
+                    <th class="align-middle col-xs-2 colNDSX">Tỷ lệ (%)</th>
+                    <th class="align-middle col-xs-2 colSLT">Kế hoạch</th>
+                    <th class="align-middle col-xs-2 colSLT">BTP cấp</th>
+                    <th class="align-middle col-xs-2 colSLT">Ra chuyền</th>
+                    <th class="align-middle col-xs-2 colSLT">QC output</th>
+                    <th class="align-middle col-xs-2 colSLT">Tồn BTP</th>
+                    <th rowspan="2" class="align-middle col-xs-2 colSLTN">Tồn CNK</th>
+                    <th class="align-middle col-xs-2 colSLT number">Nhận TP</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="align-middle col-xs-1 rowContend rowChuyen rowOdd">22</td>
+                    <td class="align-middle col-xs-1 rowContend text fz1 rowOdd">JOG-48 (SS23)</td>
+                    <td class="align-middle col-xs-1 rowContend text rowOdd">29/08/22</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">2</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">661</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd rowTLGreen">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">49</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd rowNDSXRed">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd number">9664</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">330</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                </tr>
+                <tr>
+                    <td class="align-middle col-xs-1 rowContend rowChuyen rowEven">23</td>
+                    <td class="align-middle col-xs-1 rowContend text fz1 rowEven">D2708 (HOL22)</td>
+                    <td class="align-middle col-xs-1 rowContend text rowEven">29/08/22</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">4</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">821</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">570</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven rowTLGreen">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">39</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven rowNDSXRed">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">39549</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">1380</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                </tr>
+                <tr>
+                    <td class="align-middle col-xs-1 rowContend rowChuyen rowOdd">24</td>
+                    <td class="align-middle col-xs-1 rowContend text fz1 rowOdd">PVC9-R1-LN3 (SS23)</td>
+                    <td class="align-middle col-xs-1 rowContend text rowOdd">29/08/22</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">1</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">467</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd rowTLGreen">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">69</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd rowNDSXRed">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">6348</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">15</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowOdd">0</td>
+                </tr>
+                <tr>
+                    <td class="align-middle col-xs-1 rowContend rowChuyen rowEven">26</td>
+                    <td class="align-middle col-xs-1 rowContend text fz1 rowEven">5911 (SS23)</td>
+                    <td class="align-middle col-xs-1 rowContend text rowEven">29/08/22</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">987</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven rowTLGreen">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">33</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven rowNDSXRed">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">59728</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                    <td class="align-middle col-xs-1 rowContend rowEven">0</td>
+                </tr>
+                <tr>
+                    <td class="align-middle rowContend rowChuyen">-</td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                </tr>
+                <tr>
+                    <td class="align-middle rowContend rowChuyen">-</td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                </tr>
+                <tr>
+                    <td class="align-middle rowContend rowChuyen">-</td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                </tr>
+                <tr>
+                    <td class="align-middle rowContend rowChuyen">-</td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                </tr>
+                <tr>
+                    <td class="align-middle rowContend rowChuyen">-</td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                </tr>
+                <tr>
+                    <td class="align-middle rowContend rowChuyen">-</td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"></td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                    <td class="align-middle rowContend"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        var nf = new Intl.NumberFormat();
+        const cells1 = document.querySelectorAll('#tblNDSX td.rowOdd');
+        const cells2 = document.querySelectorAll('#tblNDSX td.rowEven');
+        
+        cells1.forEach(function(cell) {
+            if(isNaN(cell.innerHTML) == false) {
+                cell.innerHTML = nf.format(cell.innerHTML);
+            }
+        })
+        cells2.forEach(function(cell) {
+            if(isNaN(cell.innerHTML) == false) {
+                cell.innerHTML = nf.format(cell.innerHTML);
+            }
+        })
+        
+    </script>
+</body>
+
+</html>
